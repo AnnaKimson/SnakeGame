@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Игра Змейка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div id="scoreContainer">
+            <h2>Текущий счёт:</h2>
+            <div id="score">0</div>
+        </div>
+        <div id="message" class="hidden"></div>
+        <button id="restartButton" class="hidden" onclick="restartGame()">Перезапустить игру</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
